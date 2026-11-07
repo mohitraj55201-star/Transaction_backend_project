@@ -37,7 +37,6 @@ const isExists=await userModel.findOne({
 }
 
 
-
 async function loginUser(req,res){
     const {email,password}=req.body;
 
